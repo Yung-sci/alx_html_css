@@ -1,0 +1,23 @@
+Body {
+    Display: flex;
+    Flex-direction: column
+}
+main {
+    Display: flex;
+    Flex-direction: ROW;
+    Flex: auto
+}
+Article {
+    Flex: 2;
+    overflow-y: auto;
+}
+/* Using a <background-color> */
+Html {
+    background-color: rgb(62, 57, 136);
+}
+header {
+    border-radius: 0cap;
+}
+article {
+    border-color: aqua;
+}
