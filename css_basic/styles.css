@@ -1,4 +1,4 @@
-Body {
+body {
     Display: flex;
     Flex-direction: column
 }
@@ -7,12 +7,12 @@ main {
     Flex-direction: ROW;
     Flex: auto
 }
-Article {
+article {
     Flex: 2;
     overflow-y: auto;
 }
 /* Using a <background-color> */
-Html {
+body {
     background-color: rgb(62, 57, 136);
 }
 header {
