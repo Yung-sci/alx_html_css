@@ -14,11 +14,19 @@ li {
     list-style: none;
 }
 
+.links {
+    padding: 1.5rem;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
 .list {
-    display: inline-flex;
-    height: 15px;
-    justify-content: center;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
     gap: 52px;
-    flex-shrink: 0;
+    justify-content: space-between;
 }
