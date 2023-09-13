@@ -48,4 +48,22 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    flex-direction: row;
+    gap: 59px;
+}
+
+button {
+    border-radius: 22px;
+    background: #C271FF;
+    border: none;
+}
+
+.but {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
