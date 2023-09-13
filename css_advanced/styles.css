@@ -1,8 +1,10 @@
 /* Header */
 header {
+    width: 100%;
     background-image: url(images/Object.png);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 a {
@@ -19,17 +21,20 @@ li {
 }
 
 .header-links {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 
 .list {
     display: flex;
-    flex-direction: row;
     padding: 1rem;
     gap: 52px;
+    float: inline-end;
 }
 
+.get-schooled {
+    flex-direction: column;
+}
 .extra {
     color: #FFF;
     text-align: center;
@@ -40,6 +45,13 @@ li {
     line-height: normal;
 }
 
+.school {
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    align-items: center;
+}
+
 .school-text{
     color: #FFF;
     text-align: center;
@@ -48,8 +60,6 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    flex-direction: row;
-    gap: 59px;
 }
 
 button {
