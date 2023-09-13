@@ -1,5 +1,5 @@
 /* Header */
-header .background {
+header {
     background-image: url(images/Object.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,4 +12,13 @@ a {
 
 li {
     list-style: none;
+}
+
+.list {
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
 }
