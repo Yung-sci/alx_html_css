@@ -1,18 +1,15 @@
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-    overflow: visible;
+/* Header */
+header .background {
+    background-image: url(images/Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
-    color: var(--text-color);
     text-decoration: none;
+    color: #ffffffff;
 }
 
-a:visited {
-    font-style: italic;
-}
-  
-  a:hover {
-    text-decoration: underline;
+li {
+    list-style: none;
 }
