@@ -21,8 +21,11 @@ li {
 }
 
 .header-links {
-    display: inline-flex;
+    margin: 1rem;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .list {
@@ -49,7 +52,9 @@ li {
     display: flex;
     flex-direction: row;
     gap: 59px;
-    align-items: center;
+    max-width: 1000px;
+    margin: 0% auto;
+    align-content: center;
 }
 
 .school-text{
@@ -60,12 +65,15 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 1000px;
+    margin: 0% auto;
 }
 
 button {
     border-radius: 22px;
-    background: #C271FF;
+    background: rgb(161, 107, 202);
     border: none;
+    align-self: center;
 }
 
 .but {
@@ -76,6 +84,7 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    align-content: center;
 }
 
 b {
@@ -95,4 +104,39 @@ b {
     font-weight: 300;
     line-height: normal;
     text-align: center;
+}
+
+.experts-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    background-color: #C271FF;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.quotes-2 {
+}
+
+.f-background {
+    background-color: #071629;
+}
+
+.smile-img {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background: #071629;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: row;
 }
