@@ -1,44 +1,66 @@
-/* Header */
-header {
+body {
     width: 100%;
-    background-image: url(images/Object.png);
+    height: 100%;
+    background-image: rgb(255, 255, 255);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /*RESIZE SMOOTHLY*/
+    transition: width 0.9s ease, height 0.9s ease;
+
+}
+
+/*first section background image*/
+.container {
+    width: 100%;
+    background-image: url('images/Object.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    position: relative;
 }
 
-a {
-    text-decoration: none;
-    color: #ffffffff;
-}
-
-li {
-    list-style: none;
-}
-
-.links {
-    padding: 1.5rem;
-}
-
-.header-links {
-    margin: 1rem;
+/* NAVBAR STYLING STARTS */
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
 }
 
-.list {
+.nav-links a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+.menu {
     display: flex;
-    padding: 1rem;
     gap: 52px;
-    float: inline-end;
+    font-size: 15px;
 }
 
-.get-schooled {
-    flex-direction: column;
+.menu-links {
+    text-decoration: none;
 }
-.extra {
+
+/* Main body content */
+.few {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
     color: #FFF;
     text-align: center;
     font-family: Source Sans Pro;
@@ -48,35 +70,21 @@ li {
     line-height: normal;
 }
 
-.school {
-    display: flex;
-    flex-direction: row;
-    gap: 59px;
-    max-width: 1000px;
-    margin: 0% auto;
-    align-content: center;
-}
-
-.school-text{
-    color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    max-width: 1000px;
-    margin: 0% auto;
-}
-
-button {
+button{ 
     border-radius: 22px;
-    background: rgb(161, 107, 202);
     border: none;
-    align-self: center;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
 }
 
 .but {
+    display: flex;
+    justify-content: center;
+    padding: 38px;
+}
+
+.but-1 {
     color: #FFF;
     text-align: center;
     font-family: Source Sans Pro;
@@ -84,59 +92,95 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    align-content: center;
 }
 
-b {
+.longtext {
+    display:flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 59px;
+}
+
+.twotext {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+
+}
+
+.twotext-1 {
     color: #C271FF;
+    text-align: center;
     font-family: Source Sans Pro;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+       
 }
 
-.from {
+.twotext-2 {
     color: #FFF;
     font-family: Source Sans Pro;
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+/*pros styling*/
+
+.pros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
 }
 
-.experts-container {
-    display: flex;
-    flex-direction: row;
+.pros-text {
+    color: #ffffffff;
 }
 
-.container1 {
-    background-color: #C271FF;
+.pros-text-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 150px;
 }
 
 .container2 {
+    background-color: #C271FF;
+    width: 100%;
+    height: 392px;
+    flex-shrink: 0;
+}
+
+.container-3 {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 53px;
+    padding: 110px;
 }
 
-.quotes-2 {
+.img-quotes-2 {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
 }
 
-.f-background {
-    background-color: #071629;
-}
-
-.smile-img {
-    display: flex;
-    flex-direction: row;
-}
-
-footer {
-    background: #071629;
-}
-
-.footer-1 {
-    display: flex;
-    flex-direction: row;
-}
+.quotes-2 {}
