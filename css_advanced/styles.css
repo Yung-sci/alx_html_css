@@ -163,6 +163,8 @@ button{
     width: 150px;
 }
 
+/* The Main Section */
+
 .container2 {
     background-color: #C271FF;
     width: 100%;
@@ -183,4 +185,62 @@ button{
     flex-shrink: 0;
 }
 
-.quotes-2 {}
+.quotes-1 {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+
+.b{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 152.727% */
+    text-decoration: solid;
+}
+
+.sub {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+
+.center {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.smile-vids {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1228px;
+   height: 450px;
+flex-shrink: 0;
+}
+
+.test-vid-1 {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    width: 242px;
+}
