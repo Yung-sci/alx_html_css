@@ -253,8 +253,6 @@ button{
     flex-shrink: 0;
 }
 
-.test-vid-0 {}
-
 .test-vid-1 {
     color: rgba(7, 22, 41, 0.50);
     font-family: Source Sans Pro;
@@ -305,7 +303,10 @@ button{
 
 .f-background {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     padding: 70px;
 }
 
@@ -313,4 +314,37 @@ button{
     width: 257px;
     height: 153px;
     flex-shrink: 0;
+}
+
+.smile-text-1{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    width: 256px;
+}
+
+.smile-text-2 {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    width: 212px;
+}
+
+.smile-text-0 {
+    width: 256px;
+}
+
+.smile-text-00 {
+    width: 212px;
+}
+
+.but-free { 
+    display: flex;
+    justify-content: center;
 }
