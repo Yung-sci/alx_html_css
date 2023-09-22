@@ -430,6 +430,7 @@ button{
 .smile {
     display: flex;
     justify-content: center;
+    opacity: 0.3517;
 }
 .smile-txt {
     color: #FFF;
