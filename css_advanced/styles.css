@@ -415,12 +415,27 @@ button{
     display: flex;
     justify-content: center;
     gap: 736px;
+    padding: 90px;
 }
 
 .link-img {
     display: flex;
+    gap: 20px;
 }
 
 .li-img {
     height: 30px;
+}
+
+.smile {
+    display: flex;
+    justify-content: center;
+}
+.smile-txt {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
